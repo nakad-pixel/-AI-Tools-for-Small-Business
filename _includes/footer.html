@@ -1,0 +1,58 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}">
+    <data class="p-name" href="{{ "/" | relative_url }}">{{ site.title | escape }}</data>
+  </data>
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <h2>About {{ site.title | escape }}</h2>
+        <p class="footer-description">{{- site.description | escape -}}</p>
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <h2>Quick Links</h2>
+        <ul class="footer-links">
+          <li><a href="/ai-tools-small-business/categories">Categories</a></li>
+          <li><a href="/ai-tools-small-business/about">About Us</a></li>
+          <li><a href="/ai-tools-small-business/contact">Contact</a></li>
+          <li><a href="/ai-tools-small-business/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/ai-tools-small-business/disclaimer">Disclaimer</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <h2>Connect With Us</h2>
+        {%- include social.html -%}
+        
+        <!-- Newsletter signup -->
+        <div class="newsletter-signup">
+          <h3>Subscribe to Our Newsletter</h3>
+          <p>Get the latest AI tools and tips for your small business</p>
+          <!-- Add your newsletter signup form here -->
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}. All rights reserved.</p>
+      <p>
+        <a href="/ai-tools-small-business/privacy-policy">Privacy Policy</a> | 
+        <a href="/ai-tools-small-business/disclaimer">Disclaimer</a> | 
+        <a href="/ai-tools-small-business/terms-of-service">Terms of Service</a>
+      </p>
+    </div>
+  </div>
+</footer>
