@@ -1,0 +1,90 @@
+# Site settings
+title: AI Tools for Small Business
+email: your.email@example.com
+description: >- 
+  Discover how AI tools can transform your small business operations. 
+  Expert reviews, implementation guides, and case studies on artificial intelligence 
+  for entrepreneurs and business owners.
+baseurl: "/ai-tools-small-business"
+url: "https://YOUR_USERNAME.github.io"
+twitter_username: your_twitter_username
+github_username: YOUR_USERNAME
+
+# SEO settings
+lang: en
+locale: en_US
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Pagination
+paginate: 6
+paginate_path: "/page:num/"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "AI Assistant"
+      image: "/assets/default-post-image.jpg"
+      comments: true
+      seo:
+        type: BlogPosting
+
+# SEO Plugin settings
+twitter:
+  username: your_twitter_username
+  card: summary_large_image
+
+# Social sharing
+social:
+  name: Your Name
+  links:
+    - https://twitter.com/your_twitter_username
+    - https://github.com/YOUR_USERNAME
+    - https://www.linkedin.com/in/your_linkedin_username
+
+# Analytics (add your Google Analytics ID here)
+google_analytics: G-XXXXXXXXXX
+
+# Webmaster Tools verification
+google_site_verification: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+bing_site_verification: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# AdSense (add your publisher ID here)
+adsense:
+  client: ca-pub-XXXXXXXXXXXXXXXX
+  slot: XXXXXXXXXX
+
+# RSS settings
+feed:
+  path: atom.xml
