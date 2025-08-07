@@ -1,1 +1,1 @@
-# -AI-Tools-for-Small-Business
+# AI-Tools-for-Small-Business
