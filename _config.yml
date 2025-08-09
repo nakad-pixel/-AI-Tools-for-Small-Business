@@ -1,14 +1,14 @@
 # Site settings
 title: AI Tools for Small Business
-email: your.email@example.com
+email: anuragjaiswar728@gmail.com
 description: >- 
   Discover how AI tools can transform your small business operations. 
   Expert reviews, implementation guides, and case studies on artificial intelligence 
   for entrepreneurs and business owners.
 baseurl: "/ai-tools-small-business"
-url: "https://YOUR_USERNAME.github.io"
+url: "https://nakad-pixel.github.io"
 twitter_username: your_twitter_username
-github_username: YOUR_USERNAME
+github_username: nakad-pixel
 
 # SEO settings
 lang: en
