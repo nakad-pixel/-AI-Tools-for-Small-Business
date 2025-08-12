@@ -1,20 +1,20 @@
-# Site settings
-title: AI Tools for Small Business
-email: anuragjaiswar728@gmail.com
-description: >- 
-  Discover how AI tools can transform your small business operations. 
-  Expert reviews, implementation guides, and case studies on artificial intelligence 
+# ================================
+# Site Settings
+# ================================
+title: "AI Tools for Small Business"
+email: contact@nakadpixel.com
+description: >-
+  Discover how AI tools can transform your small business operations.
+  Expert reviews, implementation guides, and case studies on artificial intelligence
   for entrepreneurs and business owners.
-baseurl: "/ai-tools-small-business"
+baseurl: "/AI-Tools-for-Small-Business"
 url: "https://nakad-pixel.github.io"
-twitter_username: your_twitter_username
+twitter_username: nakad_pixel
 github_username: nakad-pixel
 
-# SEO settings
-lang: en
-locale: en_US
-
-# Build settings
+# ================================
+# Build Settings
+# ================================
 markdown: kramdown
 highlighter: rouge
 theme: minima
@@ -41,13 +41,17 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+# ================================
 # Collections
+# ================================
 collections:
   posts:
     output: true
     permalink: /:categories/:title/
 
+# ================================
 # Defaults
+# ================================
 defaults:
   - scope:
       path: ""
@@ -60,31 +64,39 @@ defaults:
       seo:
         type: BlogPosting
 
-# SEO Plugin settings
+# ================================
+# SEO & Social
+# ================================
 twitter:
-  username: your_twitter_username
+  username: nakad_pixel
   card: summary_large_image
 
-# Social sharing
 social:
-  name: Your Name
+  name: "Nakad Pixel"
   links:
-    - https://twitter.com/your_twitter_username
-    - https://github.com/YOUR_USERNAME
-    - https://www.linkedin.com/in/your_linkedin_username
+    - https://twitter.com/nakad_pixel
+    - https://github.com/nakad-pixel
 
-# Analytics (add your Google Analytics ID here)
-google_analytics: G-XXXXXXXXXX
+# ================================
+# Analytics
+# ================================
+google_analytics: G-1234567890   # Replace with your real Google Analytics ID
 
-# Webmaster Tools verification
-google_site_verification: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-bing_site_verification: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-# AdSense (add your publisher ID here)
+# ================================
+# AdSense
+# ================================
 adsense:
-  client: ca-pub-XXXXXXXXXXXXXXXX
-  slot: XXXXXXXXXX
+  client: ca-pub-1234567890123456  # Replace with your AdSense Client ID
+  slot: 1234567890                 # Replace with your AdSense Slot ID
 
-# RSS settings
+# ================================
+# RSS
+# ================================
 feed:
   path: atom.xml
+
+# ================================
+# Disqus Comments
+# ================================
+disqus:
+  shortname: nakad-pixel-blog   # Replace with your real Disqus shortname
