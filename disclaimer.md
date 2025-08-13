@@ -7,7 +7,7 @@ permalink: /disclaimer/
 
 # Disclaimer
 
-The information provided by AI Tools for Small Business ("we," "us," or "our") on https://YOUR_USERNAME.github.io/ai-tools-small-business (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site.
+The information provided by AI Tools for Small Business ("we," "us," or "our") on https://github.com/nakad-pixel/ai-tools-small-business (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site.
 
 ## External Links Disclaimer
 
